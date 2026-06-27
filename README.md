@@ -3,7 +3,7 @@
 **MS in Advanced Data Analytics @ University of North Texas (GPA 3.88/4.0)**  
 Data Engineer & Analyst with end-to-end expertise in building ETL pipelines, predictive models, and executive BI dashboards. Domain experience in **Supply Chain Analytics** and **Healthcare Analytics**.
 
-📍 Denton, Texas | 📧 ravulaveekshithreddy@gmail.com | [LinkedIn](https://linkedin.com/in/veekshith-reddy-ravula)
+📍 Denton, Texas | 📧 vrravula21@gmail.com | [LinkedIn](https://linkedin.com/in/veekshith-reddy-ravula)
 
 ---
 
