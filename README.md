@@ -1,55 +1,76 @@
 # Hi, I'm Veekshith Reddy Ravula 👋
 
-**MS in Advanced Data Analytics @ University of North Texas (GPA 3.88/4.0)**  
-Data Engineer & Analyst with end-to-end expertise in building ETL pipelines, predictive models, and executive BI dashboards. Domain experience in **Analytics**.
+**Software Engineer** | MS in Advanced Data Analytics @ University of North Texas (GPA 3.88/4.0)
 
-📍 Denton, Texas | 📧 vrravula21@gmail.com | [LinkedIn](https://linkedin.com/in/veekshith-reddy-ravula)
+I build Python-based applications and data-intensive backend systems: REST API integrations, automated workflows, scalable data pipelines, and ML/LLM-powered features. I care about clean, reproducible, well-tested code that runs reliably in production-style environments.
+
+📍 Denton, Texas | 📧 veekshith.wf448@gmail.com | [LinkedIn](https://www.linkedin.com/in/veekshith-reddy-ravula-65348422a/) | [GitHub](https://github.com/veekshith21)
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python · SQL · SAS · R · Bash
+**Languages:** Python · SQL · Bash · SAS · R
 
-**Data Engineering:** PySpark · Apache Airflow · dbt · Delta Lake · ETL/ELT · Data Modeling (Star Schema · Snowflake Schema · Medallion Architecture)
+**Software Development:** REST API Integration · Automated Workflows · CI/CD (GitHub Actions) · Git/GitHub · Postman · Jupyter
 
-**Analytics & ML:** Scikit-learn · TensorFlow · PyTorch · ARIMA · LSTM · Random Forest · NLP · LLMs · Pandas · NumPy
+**Backend & Data Systems:** PySpark · Apache Airflow · dbt · Delta Lake · ETL/ELT · Batch & Streaming Processing · Data Modeling (Star Schema, Medallion Architecture)
 
-**BI & Visualization:** Power BI (DAX · Power Query · Azure Maps) · Tableau · Excel
+**AI / ML:** LLMs · RAG · Vector Search (Pinecone) · NLP · Scikit-learn · TensorFlow · PyTorch
 
-**Cloud & Platforms:** Azure (Data Factory · Synapse · ADLS) · AWS (S3 · Glue · Redshift · Athena · Lambda) · Databricks · Snowflake · Microsoft Fabric
+**Cloud & Platforms:** Azure · AWS (S3, Glue, Redshift, Athena, Lambda) · Databricks · Snowflake · Microsoft Fabric
 
-**Databases:** Snowflake · Amazon Redshift · Azure Synapse · PostgreSQL · MySQL · MongoDB
+**Databases:** PostgreSQL · MySQL · MongoDB · Snowflake · Amazon Redshift
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏥 [California Healthcare Analytics Intelligence Dashboard](https://github.com/veekshith21/california-healthcare-analytics-intelligence-dashboard)
-> **Power BI · DAX · Star Schema · Azure Maps**
+### 🤖 Agentic Job Discovery & Data Pipeline
+`Python` `REST APIs` `Pinecone` `LLMs` `SQL`
 
-Built a 4-page interactive Power BI dashboard on 523,584 rows of California Health Plan Data (2018–2023). Designed a star schema with 6 dimension tables, authored 15+ custom DAX measures, and surfaced geographic/demographic health equity gaps across all 58 counties.
+- Built automated Python workflows integrating **SerpAPI** and **Coresignal** APIs to collect, deduplicate, and normalize job postings from multiple external sources.
+- Integrated **Pinecone vector search** with multi-LLM ranking logic to retrieve and prioritize opportunities based on skills and experience.
+- Persisted enriched records in a **SQL backend** for structured, query-based retrieval.
+
+### ✈️ Real-Time Flight ETA Pipeline & Prediction System
+`Python` `PySpark` `Apache Airflow` `Azure` `Random Forest` `LSTM`
+
+- Built an end-to-end data-processing workflow ingesting, cleaning, and transforming **2.7M+ American Airlines records** with PySpark, orchestrated and scheduled via Airflow.
+- Engineered features from weather, departure variance, and delay signals to generate model-ready inputs.
+- Random Forest achieved **6.33-min MAE** and **80.3% accuracy within ±10 minutes**, validated with chronological train/test splits for reproducible evaluation.
+
+### 🏢 Enterprise Sales Analytics Data Warehouse
+`SQL` `dbt` `Snowflake` `Power BI` `Tableau`
+
+- Designed a Snowflake **star-schema** data model consolidating 12+ months of multi-product sales and profit data.
+- Created **dbt** models with data-quality tests and documentation across raw, staging, and mart layers.
+- Delivered dashboards that surfaced underperforming segments and informed resource reallocation.
+
+### 🩺 Healthcare Signal Processing & Analytics Pipeline
+`Python` `1D-CNN` `SQL` `Tableau`
+
+- Implemented a time-series pipeline for PPG sensor data: preprocessing, feature extraction, and dataset preparation for a 1D-CNN respiratory-rate model.
+- Applied 5-fold cross-validation, tracked metrics across runs, and stored results in a structured format for downstream analysis.
+
+### 📈 Donor Targeting ML Feature Pipeline
+`Python` `SQL` `SAS` `Gradient Boosting`
+
+- Built data preparation and feature-engineering workflows joining multi-source donor datasets.
+- Compared Gradient Boosting, Random Forest, Decision Tree, and Logistic Regression using holdout validation and threshold tuning.
 
 ---
 
-### ✈️ [Real-Time Flight ETA Pipeline & Prediction System](https://github.com/veekshith21/eta-change-prediction)
-> **Python · PySpark · Apache Airflow · Azure · Random Forest · LSTM · TensorFlow**
+## 📚 Research & Publication
 
-End-to-end batch data pipeline ingesting 2.7M+ American Airlines records. Achieved **Random Forest MAE of 6.33 min** and **80.3% accuracy** within a +-10-minute prediction window.
-
----
-
-### 📊 [Enterprise Sales Analytics Data Warehouse](https://github.com/veekshith21/data_analytics_portfolio)
-> **SQL · dbt · Snowflake · Power BI · Tableau**
-
-Star-schema dimensional model in Snowflake with dbt transformation models and Power BI/Tableau dashboards that drove **~15% improvement** in quarterly revenue targeting efficiency.
+**First Author**, *"AI Disclosure Quality in S&P 500 SEC 10-K Filings"*, MIRS UNT 2026: applied NLP across 9,351 SEC narratives to identify AI-washing patterns in corporate filings.
 
 ---
 
 ## 🎓 Education
 
 | Degree | Institution | Year | GPA |
-|--------|-------------|------|-----|
+|---|---|---|---|
 | MS Advanced Data Analytics | University of North Texas | 2024–2026 | 3.88/4.0 |
 | B.Tech Computer Science & Engineering | IIIT Dharwad | 2020–2024 | 7.5/10 |
 
@@ -57,14 +78,11 @@ Star-schema dimensional model in Snowflake with dbt transformation models and Po
 
 ## 📜 Certifications
 
-- **Postman API Fundamentals Student Expert** – Postman
-- **Front-End Development Libraries** – freeCodeCamp
-- **Dean's List** – GPA 3.88/4.0, University of North Texas
+- Microsoft Certified: Fabric Data Engineer Associate
+- Microsoft Certified: Fabric Analytics Engineer Associate
+- Postman API Fundamentals Student Expert, Postman
+- Front-End Development Libraries, freeCodeCamp
+- Dean's List, University of North Texas
 
 ---
 
-## 📫 Reach Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/veekshith-reddy-ravula)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ravulaveekshithreddy@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/veekshith21)
